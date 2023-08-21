@@ -38,5 +38,5 @@ Please adhere to this project's `code of conduct`.
 
 For support, email <dev@kabirou-alassane.com>
 
-## Template
+## Templates
 
