@@ -40,3 +40,5 @@ For support, email <dev@kabirou-alassane.com>
 
 ## Templates
 
+![Home Page](__/1.png)
+![Typographie](__/2.png)
