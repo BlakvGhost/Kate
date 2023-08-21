@@ -1,52 +1,42 @@
-# Quavo
 
-This template should help get you started developing with Vue 3 in Vite.
+# Kate
 
-## Recommended IDE Setup
+Kate is an online cloud storage web platform, which will allow you to save your files while taking into account a storage quota for each type of account as well as file sharing options, folder by non kate user by a link, as a Google Drive reference..
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+`The project has just started, so don't expect much from these files, it will come.`
 
-## Type Support for `.vue` Imports in TS
+## Features
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- Easy drag-and-drop file and folder backup
+- A free account that can upload up to 200 MB max of file of any type
+- Share your files, folders by a link and monitor the visits and downloads of that whether by the user or not user of kate with or no password.
+- Classification of your content by your preferences, folder...
+- Light/dark mode toggle
+- The rest will come...
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Tech Stack
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+**Client:** Vuejs, Pinia, TailwindCSS
 
-## Customize configuration
+**Server:** Nest.js, TypeORM, PostgreSQL
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Contributing
 
-## Project Setup
+Contributions are always welcome!
 
-```sh
-npm install
-```
+See `contributing.md` for ways to get started.
 
-### Compile and Hot-Reload for Development
+Please adhere to this project's `code of conduct`.
 
-```sh
-npm run dev
-```
+## License
 
-### Type-Check, Compile and Minify for Production
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
-```sh
-npm run build
-```
+## Support
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+For support, email <dev@kabirou-alassane.com>
 
-```sh
-npm run test:unit
-```
+## Template
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
